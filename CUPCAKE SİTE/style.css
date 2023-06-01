@@ -1,0 +1,147 @@
+
+body{
+    background-color: bisque;
+
+    
+}
+.baslangıc{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(2, 0, 0);
+    font-weight: bold ;  
+    margin-bottom: 15px;  
+}
+.container{
+    width: 900px;
+    height: 810px;
+    background-color: rgb(180, 176, 176);
+    margin: auto;
+}
+.container img{
+    float: left;
+    width: 33%;
+    padding: 20px;
+    height: 250px;
+    margin-left: 3px;
+}
+
+.container .cake .button1 {
+    float: left;
+   width: 5%;
+   padding-right:-3px;
+}
+.container .cake p {
+    font-size: 20px;
+    float: left;
+    width: 25%;
+    margin-left: 22px;
+}
+
+.container hr{   
+   width: 100%;
+   background-color: rgb(154, 100, 100);
+   margin-top: 35px;
+   margin-bottom: 35px;
+   padding: 2px;
+}
+.container .name{
+    margin: 35px;
+    margin-top: -5px;
+    margin-left: -2px;
+}
+
+.container #secondname {
+   margin-left: 130px;
+   
+}
+.container #email {
+    margin-left: 147px;
+ }
+ .container #mail {
+    margin-left: 20px;
+    width: 50%;
+ }
+ .container #adres {
+    width: 95%;
+ }
+ .container .kullanici{
+    padding-left: 15px;
+ }
+.kullanici p{
+    color: rgb(82, 82, 82);
+    font-style: italic;
+    margin-top: -5px;
+    line-height: 35px;
+ }
+
+ .kullanici .secondname{
+    margin-left: 186px;
+    margin-top: -70px;
+ }
+ .kullanici #sehir{ 
+    float: left;  
+ }
+ .kullanici #Sokak  {  
+   margin-left: 25px;
+   padding-top: -45px;   
+ }
+
+  .container .kullanici .sehirler input{
+   width: 46%;   
+ }
+ .container .kullanici .sehirler #Sokak{
+   margin-left: 25px;   
+ }
+ .container  .sehirgir{
+    width: 90px;
+}
+.container  .ilcegir{
+    width: 90px;
+    margin-left: 430px;
+    margin-top: -34px;
+}
+.container .botton1{
+    float: right;
+    margin-left: 30px;
+}
+.alt{
+  background-color: grey;
+  width: 60%;
+  margin-top: 15px;
+    
+}
+
+.alt p{
+  font-size: 20px;
+  height: 30px;
+  width: 80px;
+  color: black;
+  font-style: normal;
+  padding-top: 10px;
+  margin-left: 10px;   
+}
+
+.alt input{
+  margin-left: 250px;
+ margin-top: -50px;
+ width: 200px;
+ height: 45px;
+ background-color: gray;
+ border: 0px;
+ font-size: 40px;
+ padding-top: -5px;
+ margin-top: -50px;
+ padding-bottom: -5px
+}
+.price button{
+  float: right;  
+  margin-top: -55px; 
+  margin-right: 50px;
+  width: 150px;
+  height: 55px;
+  font-size: 30px;
+  background-color: rgb(183, 66, 66);
+  border: 0px;
+  color: white;
+}
+ 

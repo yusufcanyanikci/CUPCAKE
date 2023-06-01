@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>keksite</title>
+</head>
+
+<body>
+    <div class="baslangıc">
+        <h1>Order Our Cupcakes</h1>
+    </div>
+    <div class="container">
+        <div class="menu"> 
+            <img src="images/kek.png" alt="">
+            <img src="images/kek1.webp" alt="">
+            <img src="images/kek2.jpg" alt="">
+            <div class="cake">
+                <p>Larry Cherry <br> Cupcake</p>
+                <div class="button1">
+                    <input type=button onclick="yukari()"  value="+"><br>
+                    <input type=button  id="sonuc" value="0"><br>
+                    <input type=button onclick="asagi()"  value="-">
+                </div>
+                <p>Milli Vanili <br>Cupcake</p> 
+                <div class="button1">
+                    <input type=button onclick="yukari1()"  value="+" ><br>
+                    <input type=button  id="sonuc1" value="0"><br>
+                    <input type=button onclick="asagi1()"  value="-">
+                </div>
+                <p>San Pintekine <br> Cupcake</p>
+                <div class="button1">
+                    <input type=button onclick="yukari2()"  value="+"><br>
+                    <input type=button  id="sonuc2" value="0"><br>
+                    <input type=button onclick="asagi2()"  value="-">
+                </div>
+            </div>
+            <hr/>
+        </div>
+        <div class="kullanici">
+            <form>
+               
+                <label  id="tepedekiname" for="username">Name:</label>
+                <label style="color: red;" for="yildiz">*</label>
+                <label id="secondname" for="username"> Surname:</label>
+                <label id="email" for="email">Email:</label><br>
+
+
+                <input required="text" id="username" name="username">
+                <input required="text" id="Scndname" name="secondname">
+                <input required="text" id="mail" name="email"><br>
+                <p class="name"> First </p>
+                <p class="secondname"> Last </p><br>
+
+
+
+                <label for="adress"> <strong>Address:</strong></label><br>
+                <input required="text" id="adres" name="adres">
+                <p>Street Adress </p>
+
+                <div class="sehirler">
+                    <input type="text" id="sehir" name="şehir">
+                    <input type="text" id="Sokak" name="Sokak"><br>
+                    <p class="sehirgir">City</p>
+                    <p class="ilcegir">State</p>            
+                </div>
+                <div class="sehirler">
+                    <input type="text" id="sehir" name="şehir">
+                    <input type="text" id="Sokak" name="Sokak"><br>
+                    <p class="sehirgir">Postal</p>
+                    <p class="ilcegir">Country</p>      
+                </div>
+
+                <div class=" alt">
+                    <p>Total</p>
+
+                    <input  type="button" id="sonucc" name="sonucc">
+                </div>
+
+                <div class="price">
+                    <button>Order Now </button>
+                </div>
+                <script>
+                    function yukari(){
+                     
+                    var sonuc=document.getElementById("sonuc");
+                    sonuc.value=Number(sonuc.value)+1;                                       
+                        var sonuc=document.getElementById("sonucc");
+                       sonucc.value=Number(sonucc.value)+25 ;                                            
+                    }
+                     
+                    function asagi(){
+                     
+                    var sonuc=document.getElementById("sonuc");
+                    sonuc.value=Number(sonuc.value)-1;
+                    var sonuc=document.getElementById("sonucc");
+                       sonucc.value=Number(sonucc.value)-25;
+                    }
+
+                    function yukari1(){
+                     
+                     var sonuc1=document.getElementById("sonuc1");
+                     sonuc1.value=Number(sonuc1.value)+1;                                            
+                         var sonuc1=document.getElementById("sonucc");
+                        sonucc.value=Number(sonucc.value)+25;
+                     }                      
+                     function asagi1(){
+                      
+                     var sonuc1=document.getElementById("sonuc1");
+                     sonuc1.value=Number(sonuc1.value)-1;
+                     var sonuc1=document.getElementById("sonucc");
+                        sonucc.value=Number(sonucc.value)-25;
+                     }
+                     function yukari2(){
+                     
+                     var sonuc2=document.getElementById("sonuc2");
+                     sonuc2.value=Number(sonuc2.value)+1;                                             
+                         var sonuc2=document.getElementById("sonucc");
+                        sonucc.value=Number(sonucc.value)+25;
+                     }                      
+                     function asagi2(){                      
+                     var sonuc2=document.getElementById("sonuc2");
+                     sonuc2.value=Number(sonuc2.value)-1;
+                     var sonuc2=document.getElementById("sonucc");
+                        sonucc.value=Number(sonucc.value)-25;
+                     }                              		                           
+                    </script>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
